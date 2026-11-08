@@ -50,6 +50,13 @@ Settings without a fix button are explained instead, because the right fix may b
 You need OrcaSlicer 2.5 or newer, and a Klipper printer with Moonraker (Mainsail, Fluidd and
 KlipperScreen setups all have it).
 
+**From OrcaCloud (easiest):** open
+[Klipper Sync on OrcaCloud](https://cloud.orcaslicer.com/p/5e26f8ba2ea4) and subscribe, while
+signed in to the same account as OrcaSlicer. You can also find it in OrcaSlicer under
+**Plugins → Browse plugins** by searching for `Klipper Sync`. OrcaCloud updates it for you.
+
+**By hand:**
+
 1. Download [`klipper_sync.py`](klipper_sync.py).
 2. In OrcaSlicer, open **Plugins** from the main menu, click **Install plugin** and pick the file.
 3. Tick **Activate** next to Klipper Sync.
